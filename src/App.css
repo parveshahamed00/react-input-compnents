@@ -1,0 +1,73 @@
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+label {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  letter-spacing: 1.5px;
+}
+input {
+    pointer-events: none;
+
+  padding-left: 10px;
+  height: 45px;
+  border-radius: 4px;
+  width: 180px;
+}
+#container{
+    padding: 5% 0;
+    background-color: whitesmoke;
+}
+.container{
+  padding-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.defult,.error-hover {
+  border: gray 1.5px solid;
+}
+.default-hover{
+    border: 1.5px solid black;
+}
+.default-focus{
+border: blue 1.5px solid;
+}
+.default-focus-label{
+    color: blue;
+}
+.error,.error-focus{
+    border: red 1.5px solid;
+}
+.error-focus-label{
+    color: red;
+}
+.container-disable{
+padding-left: 14%;
+padding-bottom: 2%;
+}
+.disable{
+    background-color: rgba(128, 128, 128, 0.343);
+    border: 0;
+}
+.container-icons{
+    display: flex;
+    justify-content:space-around
+}
+.container-fullwidth{
+    padding-left:14% ;
+}
+.container-icons,container-fullwidth{
+    padding-bottom: 3%;
+}
+.full-width{
+    width: 70%;
+}
+.multipleRow{
+    width: 20%;
+    height: 120px;
+}
